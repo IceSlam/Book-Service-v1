@@ -1,0 +1,396 @@
+@import url(reset.css);
+    
+    body {
+    font: 2,8125em Arial, Verdana, sans-serif;
+}
+
+#wrapper {
+    margin: auto;
+    max-width: 1200px;
+	box-shadow: black 0 0 15px;
+}
+
+header {
+    margin: auto;
+    max-width: 100%;
+    min-height: 75px;
+    background-color: #a8312d;
+}
+
+#logos {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#logos img {
+    float: left;
+}
+
+#logos p {
+    float: right;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#logos a {
+    color: #fff;
+    text-decoration: none;
+    font: 1em Arial, Verdana, sans-serif;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    padding: 16px 10px;
+    font: 1em Arial, Verdana, sans-serif;
+    color: #fff;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    padding: 10px;
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    background-color: #a8312d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#tmenu {
+    display: none;
+}
+
+nav ul li a:hover {
+    padding: 10px;
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    background-color: #fff;
+    color: #a8312d;
+    text-decoration: none;
+}
+
+header .mburger {
+    display: none;
+}
+
+#minfo {
+    margin: auto;
+    background-color: #fff;
+    max-width: 100%;
+    height: auto;
+}
+
+#minfo .mtxt {
+    display: none;
+}
+
+#minfo .txt {
+    padding-left: 200px;
+    float: left;
+    padding-top: 100px;
+}
+
+#minfo .mtxt {
+    display: none;
+}
+
+#minfo a {
+    text-decoration: none;
+    color: #a8312d;
+    font: 3em Arial, Verdana, sans-serif;
+}
+
+#minfo p {
+    text-align: center;
+    max-width: 300px;
+    color: #a8312d;
+    font: 1em Arial, Verdana, sans-serif;
+}
+
+#services {
+    margin: auto;
+    max-width: 100%;
+    height: 300px;
+    background-color: #a8312d;
+}
+
+#services table {
+    display: none;
+}
+
+#services h1 {
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    font: 3em Arial, Verdana, sans-serif;
+}
+
+#services .blocks {
+    max-width: 99%;
+    height: auto;
+}
+
+#services .blck {
+    float: left;
+    margin: 15px;
+}
+
+#services ul {
+    display: none;
+}
+
+#hw {
+    margin: auto;
+    max-width: 100%;
+    height: 350px;
+    background-color: #fff;
+}
+
+#hw h1 {
+    text-align: center;
+    font: 3em Arial, Verdana, sans-serif;
+    color: #444;
+    padding: 10px 0;
+}
+
+#hw ul {
+    display: none;
+}
+
+#hw a {
+    text-decoration: none;
+    color: #444;
+    font: 1em Arial, Verdana, sans-serif;
+}
+
+#hw .left p {
+    text-align: right;
+    padding-top: 75px;
+    max-width: 40%;
+}
+
+#hw .right p {
+    float: right;
+    text-align: left;
+    padding-top: 75px;
+    max-width: 40%;
+}
+
+#hw img {
+    max-width: 300px;
+    height: auto;
+}
+
+#hw .left img {
+    float: right;
+}
+
+#hw .right img {
+    float: left;
+}
+
+#hw .left {
+    max-width: 50%;
+    height: auto;
+    float: left;
+}
+
+#hw .right {
+    margin: auto;
+    max-width: 50%;
+    height: auto;
+    float: right;
+}
+
+#prices {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    background-color: #a8312d;
+}
+
+#prices h1 {
+    text-align: center;
+    padding: 10px;
+    font: 3em Arial, Verdana, sans-serif;
+    color: #fff;
+}
+
+#prices a {
+    text-decoration: none;
+    color: #fff;
+    font: 0.875em Arial, Verdana, sans-serif;
+}
+
+#prices table {
+    font: 0.875em Arial, Verdana, sans-serif;
+    color: #444;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+#prices table caption {
+    font-size: 1.6em;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+#prices table th {
+    font: 1.4em Arial, Verdana, sans-serif;
+    border: 1px solid #ccc;
+    height: 30px;
+    vertical-align: middle;
+}
+
+#prices table td {
+    font-size: 1em;
+    border: 1px solid #ccc;
+    height: 25px;
+}
+
+#prices table .pname {
+    width: 600px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+#prices table .pcost {
+    width: 130px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#prices table .pwaranty {
+    width: 130px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#social {
+    margin: auto;
+    max-width: 100%;
+    height: 300px;
+    background-color: #fff;
+}
+
+#social h1 {
+    text-align: center;
+    padding: 10px;
+    font: 3em Arial, Verdana, sans-serif;
+    color: #444;
+    vertical-align: middle;
+}
+
+#social img {
+    float: left;
+}
+
+#social .vk {
+}
+
+#partners {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    background-color: #a8312d;
+}
+
+#partners h1 {
+    display: none;
+}
+
+#partners img {
+    padding: 15px;
+}
+
+#contacts {
+    margin: auto;
+    max-width: 100%;
+    height: 370px;
+    background-color: #fff;
+}
+
+#contacts .map {
+	float: left;
+	padding-top: 10px;
+	margin-left: 88px;
+}
+
+#contacts .contacts {
+	padding-top: 50px;
+}
+
+#contacts .contacts h1 {
+	text-align: center;
+	font: 36px Arial, Verdana, sans-serif;
+	color: #444;
+}
+
+#contacts .contacts h2 {
+	text-align: center;
+	padding-top: 10px;
+	font: 20px Arial, Verdana, sans-serif;
+	color: #444;
+}
+
+#contacts .contacts h3 {
+	text-align: left;
+	padding-top: 10px;
+	font: bold 16px Arial, Verdana, sans-serif;
+	color: #444;
+}
+
+#contacts .contacts p {
+	text-align: right;
+	padding-top: 10px;
+	font: 16px Arial, Verdana, sans-serif;
+	color: #444;
+}
+
+#contacts a {
+	text-decoration: none;
+	color: #444;
+}
+
+#contacts a:hover {
+	text-decoration: underline;
+	color: #444;
+}
+
+#contacts table {
+	margin-top: 25px;
+	margin-left: 150px;
+    border: 1px solid white;
+}
+
+#contacts table tr {
+        border: 1px solid white;
+}
+
+footer {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    background-color: #a8312d;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px 0 10px 10px;
+    font: 0.875em Arial, Verdana, sans-serif;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
