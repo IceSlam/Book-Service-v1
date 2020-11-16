@@ -1,0 +1,1338 @@
+@import url(reset.css);
+
+@media screen and (max-width: 320px) {
+    #wrapper {
+        max-width: 98%;
+    }
+    
+    header {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #logos p {
+        display: none;
+    }
+    
+    nav {
+        display: none;
+    }
+    
+    header .mburger {
+        display: block;
+        float: right;
+        padding: 21px 10px;
+    }
+    
+    #mburger ul {
+    padding: 16px 10px;
+    font: 1em Arial, Verdana, sans-serif;
+    color: #fff;
+    }
+
+    #mburger ul li {
+        float: none;
+        padding-bottom: 5px;
+    }
+
+    #mburger ul li a {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #a8312d;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    #mburger ul li a:hover {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #fff;
+        color: #a8312d;
+        text-decoration: none;
+    }
+    
+    #mburger h1 {
+        font: bold 1.875em Arial, Verdana, sans-serif;
+        color: #fff;
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    #minfo {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #minfo .txt, a, p {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    
+    #minfo a {
+        font-size: 1.875em;
+    }
+    
+    #minfo img {
+        max-width: 90%;
+        width: auto;
+    }
+    
+    #services {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #services ul {
+    }
+    
+    #services h1 {
+        font-size: 1.875em;
+    }
+    
+    #services .blocks {
+        display: none;
+    }
+    
+    #services ul {
+        display: block;
+        padding: 16px 10px;
+        font: 1em Arial, Verdana, sans-serif;
+        color: #fff;
+    }
+
+    #services ul li {
+        max-width: 370px;
+        float: none;
+        padding-bottom: 5px;
+    }
+
+    #services ul li a {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #fff;
+        color: #a8312d;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    #services ul li a:hover {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #a8312d;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    #hw {
+        max-width: 100%;
+        height: 200px;
+    }
+    
+    #hw h1 {
+        font-size: 1.875em;
+    }
+    
+    #hw img {
+        max-width: 90%;
+        float: none;
+    }
+    
+    #hw .left img, .right img {
+        float: none;
+        padding: 10px;
+    }
+    
+    #hw .left p, .right p {
+        display: none;
+    }
+    
+    #hw a {
+        float: none;
+        font-size: 0.875em;
+    }
+    
+    #prices {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #prices h1 {
+        font-size: 1.875em;
+    }
+    
+    #prices table {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #prices table .pname, .pcost, .pwaranty {
+        max-width: auto;
+    }
+    
+    #prices table caption {
+        font-size: 0.875em;
+    }
+    
+    #prices table th {
+        font-size: 0.8em;
+    }
+    
+    #prices table td {
+        font-size: 0.75em;
+    }
+    
+    #social {
+        display: none;
+    }
+    
+    #partners {
+        display: none;
+    }
+    
+    #contacts {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #contacts .map {
+        display: none;
+    }
+    
+    #contacts .contacts {
+        padding-top: 10px;
+    }
+    
+    #contacts .contacts h1 {
+        font-size: 1.875em;
+    }
+    
+    #contacts .contacts h2 {
+        font-size: 1.175em;
+    }
+    
+    #contacts table {
+        margin-left: auto;
+        max-width: 99%;
+    }
+    
+    #contacts table tr td h3 {
+        font-size: 0.875em;
+    }
+    
+    #contacts table td {
+        font-size: 0.875em
+    }
+    
+    #contacts .contacts p {
+        font-size: 0.875em;
+    }
+    
+    #footer {
+        max-width: 100%;
+    }
+} 
+
+@media screen and (min-width: 321px) and (max-width: 719px) {
+    
+    #wrapper {
+        max-width: 100%;
+    }
+    
+    header {
+        max-width: 100%;
+    }
+    
+    header nav {
+        display: none;
+    }
+    
+    header .mburger {
+        display: block;
+        float: right;
+        padding: 21px 10px;
+    }
+    
+    #mburger ul {
+    padding: 16px 10px;
+    font: 1em Arial, Verdana, sans-serif;
+    color: #fff;
+    }
+
+    #mburger ul li {
+        max-width: 370px;
+        float: none;
+        padding-bottom: 5px;
+    }
+
+    #mburger ul li a {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #a8312d;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    #mburger ul li a:hover {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #fff;
+        color: #a8312d;
+        text-decoration: none;
+    }
+    
+    #mburger h1 {
+        font: bold 1.875em Arial, Verdana, sans-serif;
+        color: #fff;
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    #minfo {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #minfo .txt {
+        display: none;
+    }
+    
+    #minfo .mtxt {
+        display: block;
+        padding: 10px;
+        display: block;
+    }
+    
+    #minfo .mtxt a {
+        font-size: 1.875em;
+    }
+    
+    #minfo img {
+        max-width: 80%;
+    }
+    
+    #services {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #services h1 {
+        font-size: 1.875em;
+    }
+    
+    #services .blocks {
+        display: none;
+    }
+    
+    #services ul {
+        display: block;
+        padding: 16px 10px;
+        font: 1em Arial, Verdana, sans-serif;
+        color: #fff;
+    }
+
+    #services ul li {
+        max-width: 370px;
+        float: none;
+        padding-bottom: 5px;
+    }
+
+    #services ul li a {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #fff;
+        color: #a8312d;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    #services ul li a:hover {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #a8312d;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    #hw {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #hw h1 {
+        font-size: 1.875em;
+    }
+    
+    #hw .left, .right {
+        display: none;
+    }
+    
+    #hw ul {
+        display: block;
+    }
+    
+    #hw img {
+        max-width: 70%;
+        height: auto;
+    }
+    
+    #social {
+        display: none;
+    }
+    
+    #prices {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #prices h1 {
+        font-size: 1.875em;
+    }
+    
+    #partners {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #partners h1 {
+        display: block;
+        font: 1.875em Arial, Verdana, sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    
+    #contacts {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #contacts .map {
+        display: none;
+    }
+    
+    #contacts .contacts {
+        padding-top: 10px;;
+    }
+    
+    #contacts .contacts h1 {
+        font-size: 1.875em;
+    }
+    
+    #contacts table {
+        margin-top: auto;
+        margin-left: auto;
+    }
+    
+    footer {
+        max-width: 100%;
+        height: auto;
+    }
+    
+        
+    .md-caption {
+	padding-top: 30px;
+	padding-bottom: 55px;
+	font: 24px Arial, Verdana, sans-serif;
+	text-align: center;
+    color: #fff;
+        display: none;
+}
+
+.md-caption-small {
+	font: 14px Arial, Verdana, sans-serif;
+	text-align: center;
+    color: #fff;
+    padding-left: 20px;
+    display: none;
+}
+
+.md-caption-small-wl {
+	display: none;
+}
+    
+}
+
+@media screen and (min-width: 720px) and (max-width: 1023px) {
+    #wrapper {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    hedaer {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    nav {
+        display: none;
+    }
+    
+    #tmenu {
+        display: block;
+    }
+    
+    #tmenu ul {
+        float: right;
+        padding: 10px 10px;
+        font: 1em Arial, Verdana, sans-serif;
+        color: #fff;
+    }
+    
+    #tmenu ul li a {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #a8312d;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    
+    #tmenu ul li a:hover {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #fff;
+        color: #a8312d;
+        text-decoration: none;
+    }
+    
+    #tmenu ul li {
+        float: left;
+    }
+    
+    #mburger ul {
+    padding: 16px 10px;
+    font: 1em Arial, Verdana, sans-serif;
+    color: #fff;
+    }
+
+    #mburger ul li {
+        max-width: 370px;
+        float: none;
+        padding-bottom: 5px;
+    }
+
+    #mburger ul li a {
+        padding: 7px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #a8312d;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    #mburger ul li a:hover {
+        padding: 7px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #fff;
+        color: #a8312d;
+        text-decoration: none;
+    }
+    
+    #mburger h1 {
+        font: bold 1.875em Arial, Verdana, sans-serif;
+        color: #fff;
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    #minfo {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #minfo .txt {
+        display: none;
+    }
+    
+    #services {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #services table {
+        display: block;
+    }
+    
+    #services .blocks {
+        display: none;
+    }
+    
+    #services ul {
+        display: block;
+        padding: 16px 10px;
+        font: 1em Arial, Verdana, sans-serif;
+        color: #fff;
+    }
+
+    #services ul li {
+        max-width: 370px;
+        float: none;
+        padding-bottom: 5px;
+    }
+
+    #services ul li a {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #fff;
+        color: #a8312d;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    #services ul li a:hover {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #a8312d;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    #hw {
+        max-width: 100%;
+    }
+    
+    #hw img {
+        max-width: 50%;
+        min-width: 50%;
+        padding-top: 30px;
+    }
+    
+    #prices {
+        max-width: 100%;
+    }
+    
+    #social {
+        display: none;
+    }
+    
+    #partners {
+        max-width: 100%;
+    }
+    
+    #partners h1 {
+        display: block;
+        font: 1.875em Arial, Verdana, sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    
+    #contacts {
+        max-width: 100%;
+    }
+    
+    #contacts .map {
+        margin: 5px;
+    }
+    
+    #contacts .contacts {
+        padding-top: 10px;;
+    }
+    
+    #contacts .contacts h1 {
+        font-size: 1.875em;
+    }
+    
+    #contacts table {
+        margin-top: auto;
+        margin-left: auto;
+    }
+    
+    footer {
+        max-width: 100%;
+    }
+    
+        
+    .md-caption {
+	padding-top: 30px;
+	padding-bottom: 55px;
+	font: 24px Arial, Verdana, sans-serif;
+	text-align: center;
+    color: #fff;
+        display: none;
+}
+
+.md-caption-small {
+	font: 14px Arial, Verdana, sans-serif;
+	text-align: center;
+    color: #fff;
+    padding-left: 20px;
+    display: none;
+}
+
+.md-caption-small-wl {
+	display: none;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1190px) {
+    #wrapper {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    hedaer {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    nav {
+        display: none;
+    }
+    
+    #tmenu {
+        display: block;
+    }
+    
+    #tmenu ul {
+        float: right;
+        padding: 10px 10px;
+        font: 1em Arial, Verdana, sans-serif;
+        color: #fff;
+    }
+    
+    #tmenu ul li a {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #a8312d;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    
+    #tmenu ul li a:hover {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #fff;
+        color: #a8312d;
+        text-decoration: none;
+    }
+    
+    #tmenu ul li {
+        float: left;
+    }
+    
+    #mburger ul {
+    padding: 16px 10px;
+    font: 1em Arial, Verdana, sans-serif;
+    color: #fff;
+    }
+
+    #mburger ul li {
+        max-width: 370px;
+        float: none;
+        padding-bottom: 5px;
+    }
+
+    #mburger ul li a {
+        padding: 7px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #a8312d;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    #mburger ul li a:hover {
+        padding: 7px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #fff;
+        color: #a8312d;
+        text-decoration: none;
+    }
+    
+    #mburger h1 {
+        font: bold 1.875em Arial, Verdana, sans-serif;
+        color: #fff;
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    #minfo {
+    margin: auto;
+    background-color: #fff;
+    max-width: 100%;
+    height: auto;
+}
+
+#minfo .mtxt {
+    display: none;
+}
+
+#minfo .txt {
+    padding-left: 200px;
+    float: left;
+    padding-top: 100px;
+}
+
+#minfo .mtxt {
+    display: none;
+}
+
+#minfo a {
+    text-decoration: none;
+    color: #a8312d;
+    font: 3em Arial, Verdana, sans-serif;
+}
+
+#minfo p {
+    text-align: center;
+    max-width: 300px;
+    color: #a8312d;
+    font: 1em Arial, Verdana, sans-serif;
+}
+    
+    #services {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #services table {
+        display: block;
+    }
+    
+    #services .blocks {
+        display: none;
+    }
+    
+    #services ul {
+        display: block;
+        padding: 16px 10px;
+        font: 1em Arial, Verdana, sans-serif;
+        color: #fff;
+    }
+
+    #services ul li {
+        max-width: 370px;
+        float: none;
+        padding-bottom: 5px;
+    }
+
+    #services ul li a {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #fff;
+        color: #a8312d;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    #services ul li a:hover {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        background-color: #a8312d;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    #hw {
+        max-width: 100%;
+    }
+    
+    #hw img {
+        max-width: 50%;
+        min-width: 50%;
+        padding-top: 30px;
+    }
+    
+    #prices {
+        max-width: 100%;
+    }
+    
+    #social {
+        display: none;
+    }
+    
+    #partners {
+        max-width: 100%;
+    }
+    
+    #partners h1 {
+        display: block;
+        font: 1.875em Arial, Verdana, sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    
+    #contacts {
+        max-width: 100%;
+    }
+    
+    #contacts .map {
+        margin: 5px;
+    }
+    
+    #contacts .contacts {
+        padding-top: 10px;;
+    }
+    
+    #contacts .contacts h1 {
+        font-size: 1.875em;
+    }
+    
+    #contacts table {
+        margin-top: auto;
+        margin-left: auto;
+    }
+        
+    .md-caption {
+	padding-top: 30px;
+	padding-bottom: 55px;
+	font: 24px Arial, Verdana, sans-serif;
+	text-align: center;
+    color: #fff;
+        display: none;
+}
+
+.md-caption-small {
+	font: 14px Arial, Verdana, sans-serif;
+	text-align: center;
+    color: #fff;
+    padding-left: 20px;
+    display: none;
+}
+
+.md-caption-small-wl {
+	display: none;
+}
+}
+
+@media (min-width: 1190px) {
+    
+    body {
+    font: 2,8125em Arial, Verdana, sans-serif;
+}
+
+#wrapper {
+    margin: auto;
+    max-width: 1200px;
+}
+
+header {
+    margin: auto;
+    max-width: 100%;
+    min-height: 75px;
+    background-color: #a8312d;
+}
+
+#logos {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#logos img {
+    float: left;
+}
+
+#logos p {
+    float: right;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#logos a {
+    color: #fff;
+    text-decoration: none;
+    font: 1em Arial, Verdana, sans-serif;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    padding: 16px 10px;
+    font: 1em Arial, Verdana, sans-serif;
+    color: #fff;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    padding: 10px;
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    background-color: #a8312d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#tmenu {
+    display: none;
+}
+
+nav ul li a:hover {
+    padding: 10px;
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    background-color: #fff;
+    color: #a8312d;
+    text-decoration: none;
+}
+
+header .mburger {
+    display: none;
+}
+
+#minfo {
+    margin: auto;
+    background-color: #fff;
+    max-width: 100%;
+    height: auto;
+}
+
+#minfo .mtxt {
+    display: none;
+}
+
+#minfo .txt {
+    padding-left: 200px;
+    float: left;
+    padding-top: 100px;
+}
+
+#minfo .mtxt {
+    display: none;
+}
+
+#minfo a {
+    text-decoration: none;
+    color: #a8312d;
+    font: 3em Arial, Verdana, sans-serif;
+}
+
+#minfo p {
+    text-align: center;
+    max-width: 300px;
+    color: #a8312d;
+    font: 1em Arial, Verdana, sans-serif;
+}
+
+#services {
+    margin: auto;
+    max-width: 100%;
+    height: 300px;
+    background-color: #a8312d;
+}
+
+#services table {
+    display: none;
+}
+
+#services h1 {
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    font: 3em Arial, Verdana, sans-serif;
+}
+
+#services .blocks {
+    max-width: 99%;
+    height: auto;
+}
+
+#services .blck {
+    float: left;
+    margin: 15px;
+}
+
+#services ul {
+    display: none;
+}
+
+#hw {
+    margin: auto;
+    max-width: 100%;
+    height: 350px;
+    background-color: #fff;
+}
+
+#hw h1 {
+    text-align: center;
+    font: 3em Arial, Verdana, sans-serif;
+    color: #444;
+    padding: 10px 0;
+}
+
+#hw ul {
+    display: none;
+}
+
+#hw a {
+    text-decoration: none;
+    color: #444;
+    font: 1em Arial, Verdana, sans-serif;
+}
+
+#hw .left p {
+    text-align: right;
+    padding-top: 75px;
+    max-width: 40%;
+}
+
+#hw .right p {
+    float: right;
+    text-align: left;
+    padding-top: 75px;
+    max-width: 40%;
+}
+
+#hw img {
+    max-width: 300px;
+    height: auto;
+}
+
+#hw .left img {
+    float: right;
+}
+
+#hw .right img {
+    float: left;
+}
+
+#hw .left {
+    max-width: 50%;
+    height: auto;
+    float: left;
+}
+
+#hw .right {
+    margin: auto;
+    max-width: 50%;
+    height: auto;
+    float: right;
+}
+
+#prices {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    background-color: #a8312d;
+}
+
+#prices h1 {
+    text-align: center;
+    padding: 10px;
+    font: 3em Arial, Verdana, sans-serif;
+    color: #fff;
+}
+
+#prices a {
+    text-decoration: none;
+    color: #fff;
+    font: 0.875em Arial, Verdana, sans-serif;
+}
+
+#prices table {
+    font: 0.875em Arial, Verdana, sans-serif;
+    color: #444;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+#prices table caption {
+    font-size: 1.6em;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+#prices table th {
+    font: 1.4em Arial, Verdana, sans-serif;
+    border: 1px solid #ccc;
+    height: 30px;
+    vertical-align: middle;
+}
+
+#prices table td {
+    font-size: 1em;
+    border: 1px solid #ccc;
+    height: 25px;
+}
+
+#prices table .pname {
+    width: 600px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+#prices table .pcost {
+    width: 130px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#prices table .pwaranty {
+    width: 130px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#social {
+    margin: auto;
+    max-width: 100%;
+    height: 300px;
+    background-color: #fff;
+}
+
+#social h1 {
+    text-align: center;
+    padding: 10px;
+    font: 3em Arial, Verdana, sans-serif;
+    color: #444;
+    vertical-align: middle;
+}
+
+#social img {
+    float: left;
+}
+
+#social .vk {
+}
+
+#partners {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    background-color: #a8312d;
+}
+
+#partners h1 {
+    display: none;
+}
+
+#partners img {
+    padding: 15px;
+}
+
+#contacts {
+    margin: auto;
+    max-width: 100%;
+    height: 370px;
+    background-color: #fff;
+}
+
+#contacts .map {
+	float: left;
+	padding-top: 10px;
+	margin-left: 88px;
+}
+
+#contacts .contacts {
+	padding-top: 50px;
+}
+
+#contacts .contacts h1 {
+	text-align: center;
+	font: 36px Arial, Verdana, sans-serif;
+	color: #444;
+}
+
+#contacts .contacts h2 {
+	text-align: center;
+	padding-top: 10px;
+	font: 20px Arial, Verdana, sans-serif;
+	color: #444;
+}
+
+#contacts .contacts h3 {
+	text-align: left;
+	padding-top: 10px;
+	font: bold 16px Arial, Verdana, sans-serif;
+	color: #444;
+}
+
+#contacts .contacts p {
+	text-align: right;
+	padding-top: 10px;
+	font: 16px Arial, Verdana, sans-serif;
+	color: #444;
+}
+
+#contacts a {
+	text-decoration: none;
+	color: #444;
+}
+
+#contacts a:hover {
+	text-decoration: underline;
+	color: #444;
+}
+
+#contacts table {
+	margin-top: 25px;
+	margin-left: 150px;
+    border: 1px solid white;
+}
+
+#contacts table tr {
+        border: 1px solid white;
+}
+
+footer {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    background-color: #a8312d;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px 0 10px 10px;
+    font: 0.875em Arial, Verdana, sans-serif;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+    
+}
