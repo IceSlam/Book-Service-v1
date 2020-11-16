@@ -1,0 +1,219 @@
+@import url(reset.css);
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(168,49,45,0.5);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 520px;
+	position: relative;
+	margin: 4% auto;
+	padding: 5px 20px 13px 20px;
+	background: #fff;
+}
+
+.modalDialog-wl {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(168,49,45,0.5);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog-wl:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog-wl > div {
+	max-width: 70%;
+    height: auto
+	position: relative;
+	margin: 4% auto;
+	padding: 5px 20px 13px 20px;
+}
+
+.close {
+	background: #a8312d;
+	color: #fff;
+	line-height: 25px;
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	top: 0px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #a8312d;
+	-webkit-box-shadow: 1px 1px 3px #a8312d;
+	box-shadow: 1px 1px 3px #a8312d;
+}
+
+.close:hover { 
+	color: #a8312d; 
+	background: #fff; 
+}
+
+.md-list {
+	list-style-type: circle;
+	margin-left: 15px;
+	padding-top: 20px;
+	font: 16px Arial, Verdana, sans-serif;
+}
+
+.md-header {
+	font: 20px Arial, Verdana, sans-serif;
+	text-align: center;
+    color: #fff;
+}
+
+.md-caption {
+	padding-top: 30px;
+	padding-bottom: 55px;
+	font: 24px Arial, Verdana, sans-serif;
+	text-align: center;
+    color: #fff;
+}
+
+.md-caption-small {
+	font: 14px Arial, Verdana, sans-serif;
+	text-align: center;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.md-caption-small-wl {
+	font: 14px Arial, Verdana, sans-serif;
+	text-align: center;
+    color: #fff;
+}
+
+ol{  
+  counter-reset: li; /* РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ СЃС‡РµС‚С‡РёРєР° */  
+  list-style: none; /* РЈРґР°Р»СЏРµРј РЅСѓРјРµСЂР°С†РёСЋ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ */  
+  *list-style: decimal; /* Р”Р»СЏ IE6/7 РёСЃРїРѕР»СЊР·СѓРµРј РЅСѓРјРµСЂР°С†РёСЋ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ */  
+  font: 15px 'trebuchet MS', 'lucida sans';  
+  padding: 0;  
+  margin-bottom: 4em;  
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);  
+  }  
+
+  ol ol{  
+  margin: 0 0 0 2em; /* Р”РѕР±Р°РІР»СЏРµРј РЅРµР±РѕР»СЊС€РѕРµ РїРѕР»Рµ СЃР»РµРІР° РґР»СЏ РІР»РѕР¶РµРЅРЅРѕРіРѕ СЃРїРёСЃРєР° */  
+  } 
+
+  
+
+  .rounded-list a{  
+  position: relative;  
+  display: block;  
+  padding: .4em .4em .4em 2em;  
+  *padding: .4em;  
+  margin: .5em 0;  
+  background: #ddd;  
+  color: #444;  
+  text-decoration: none;  
+  border-radius: .3em;  
+  transition: all .3s ease-out;  
+  }  
+
+  .rounded-list a:hover{  
+  background: #eee;  
+  }  
+
+  .rounded-list a:hover:before{  
+  transform: rotate(360deg);  
+  }  
+
+  .rounded-list a:before{  
+  content: counter(li);  
+  counter-increment: li;  
+  position: absolute;  
+  left: -1.3em;  
+  top: 50%;  
+  margin-top: -1.3em;  
+  background: #fa8072;  
+  height: 2em;  
+  width: 2em;  
+  line-height: 2em;  
+  border: .3em solid #fff;  
+  text-align: center;  
+  font-weight: bold;  
+  border-radius: 2em;  
+  transition: all .3s ease-out;  
+  } 
+
+  
+  .wl {
+	  padding-left: 24px;
+	  padding-bottom: 24px;
+	  padding-top: 24px;
+	  width: 520px;
+	  float: left;
+  }
+  
+  .wl-text {
+	  padding-top: 150px;
+  }
+
+
+
+/* 
+    Тач-меню для адаптации
+*/
+
+.mb {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(255,255,255,0.5);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.mb:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.mb > div {
+	max-width: 90%;
+	position: relative;
+	margin: 4% auto;
+	padding: 5px 20px 13px 20px;
+	background: #fff;
+}
